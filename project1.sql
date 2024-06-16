@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS project1;
+
+USE project1;
+CREATE TABLE IF NOT EXISTS users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  ime VARCHAR(15),
+  prezime VARCHAR(15),
+  username VARCHAR(15) NOT NULL,
+  passwordd VARCHAR(20) NOT NULL
+);
+
+
+
+
+
